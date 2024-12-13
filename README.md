@@ -1,0 +1,1 @@
+This repository demonstrates a common CSS bug related to selector specificity. The `bug.css` file contains CSS rules that conflict due to specificity issues, leading to unexpected styling results.  The `bugSolution.css` file shows how to resolve the conflict by adjusting selector specificity or using the `!important` flag (sparingly!).
