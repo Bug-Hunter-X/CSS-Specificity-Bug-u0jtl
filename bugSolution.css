@@ -1,0 +1,13 @@
+/* bugSolution.css */
+
+/* Instead of relying on specificity alone, we can add more specificity to the intended style (e.g., by adding a class): */
+.specific-element {
+  color: blue;
+}
+
+/* Or, as a last resort and only if absolutely necessary, use the !important flag, but keep in mind this can make your stylesheet harder to maintain: */
+#myElement {
+  color: red !important;
+}
+
+/*  Note: Using !important is generally discouraged unless absolutely necessary for overriding a third-party style you cannot modify */
